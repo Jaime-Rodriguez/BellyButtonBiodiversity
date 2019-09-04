@@ -26,7 +26,7 @@ function buildMetadata(sample) {
       var wash = data.WFREQ;
     
    
-    var data = [{domain: {x: [0, 1], y: [0, 1]}, value: wash, title: {text: "Speed"},
+    var data = [{domain: {x: [0, 1], y: [0, 1]}, value: wash, title: {text: "Belly Button Wash Frequency"},
     type: "indicator", mode: "gauge+number"}];
 
     var layout = {width: 500, height: 500, margin: {t: 0, b: 0}};
